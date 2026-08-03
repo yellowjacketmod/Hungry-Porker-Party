@@ -1,0 +1,12 @@
+{
+  "name": "Spinner",
+  "type": "wheel",
+  "waytoplayon": "spin",
+  "imagesrc": "unit spinner.jpg",
+  "food": {
+    "food1": "partysausage",
+    "food2": "browncircle",
+    "food3": "somecake",
+    "food4": "any",
+  }
+}
