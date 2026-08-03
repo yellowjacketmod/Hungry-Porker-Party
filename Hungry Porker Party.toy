@@ -1,0 +1,36 @@
+playon Windows;
+playon Windows.OOP;
+set namespace = "Hungry Porker";
+public Class Main {
+ public Void Toy main(string[] args) {
+  ext.getHitboxBy("hitboxes.chb");
+  addObjectWith('Porker') {
+   import image as "unit porker.jpeg";
+   json.Parse("unit code/Porker.json");
+  }
+  addObjectWith('Food') {
+   import image as "unit food.jpeg";
+   json.Parse("unit code/food.json");
+  }
+  addObjectWith('Spinner') {
+   import image as "unit spinner.jpeg";
+   json.Parse("unit code/spinner.json");
+  }
+  defineFunction pump() {
+   set size of object["Porker"] = 85;
+   wait 0.3;
+   set size of object["Porker"] = 100;
+  }
+  set size of object["Porker"] = 100;
+  set size of object["Food"] = 100;
+  set size of object["Spinner"] = 100;
+  css.setBackgroundColor('#000');
+  print(object["Porker"]);
+  print(object["Food"], draggable);
+  print(object["Spinner"]);
+  if (key[space]) {
+   pump();
+   change score = 1;
+  }
+ }
+}
