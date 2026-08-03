@@ -1,0 +1,10 @@
+{
+  "name": "Food",
+  "type": "lunch",
+  "waytoplayon": "putinporker",
+  "imagesrc": "unit food.jpg",
+  "browncirclecount": 5,
+  "partysausagecount": 5,
+  "somecakecount": 5,
+  "validforporker": true
+}
