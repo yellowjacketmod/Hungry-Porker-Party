@@ -1,0 +1,12 @@
+{
+  "name": "Porker",
+  "type": "character",
+  "waytoplayon": "feed&pump",
+  "imagesrc": "unit porker.jpg",
+  "pumplimit": 19,
+  "legwear": true,
+  "legwearplans": {
+    "legwearfalldown": true,
+    "legwearputup": true,
+  }
+}
